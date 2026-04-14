@@ -15,6 +15,18 @@ Usuario → Rol → Lista de Permisos → Acceso a Componentes + Datos
 - Permission List: Accesos técnicos
 - Row Security: Datos visibles
 
+📊 Gráfico conceptual
+        👤 Usuario
+            │
+            ▼
+        🎭 Rol(es)
+            │
+            ▼
+   📜 Lista de Permisos
+      │           │
+      ▼           ▼
+  🔐 Menús     📊 Datos (Row Security)
+
 ---
 
 ## 3. Tipos de Seguridad
